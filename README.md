@@ -1,5 +1,6 @@
 # Retail Store Performance Dashboard
 
+## 📖 Overview
 A Power BI dashboard built on 1,650 retail records, using MySQL for data analysis and DAX for measures.
 
 ## View the Dashboard
@@ -10,7 +11,7 @@ A Power BI dashboard built on 1,650 retail records, using MySQL for data analysi
 
   ![Dashboard](dashboard.png)
 
-## Tools
+## 🛠️Tools
 <p>
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
@@ -23,15 +24,15 @@ A Power BI dashboard built on 1,650 retail records, using MySQL for data analysi
 
 - **DAX:** measures for Total Sales, Avg Sales, Below Avg Records, Sales per Football
 
-## Dataset
+## 📊 Dataset
 1,650 records (Jan to Dec 2025) across 4 stores (A, B, C, D) and 3 categories (Grocery, Electronics, Home & Lifestyle). Columns: store, region, category, product, date, quantity sold, sales amount, customer footfall, inventory units, inventory value, inventory turnover.
 
-## Key Findings
+## ✨ Key Findings
 - 1,221 of 1,650 records (74%) are below the average sales amount, because a few high-value records pull the average up.
 - Footfall and sales show almost no relationship (correlation about 0.08), so high traffic alone does not guarantee higher sales.
 - Electronics contributes about 84.5% of total sales. Store C has the highest sales (about 22.6M).
 
-## Files
+## 📈 Files
 - `Retail_Store_Performance.pbix`: Power BI dashboard
 - `retail_analysis.sql`: SQL queries
 - `Retail_Store_Performance_1650.csv`: dataset
