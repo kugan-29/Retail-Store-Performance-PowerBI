@@ -3,12 +3,13 @@
 ## 📖 Overview
 A Power BI dashboard built on 1,650 retail records, using MySQL for data analysis and DAX for measures.
 
-## View the Dashboard
+## 🔗 View the Dashboard
 
 - [Download Power BI file (.pbix)](Retail_Store_Performance.pbix) (open in Power BI Desktop)
 - [View dashboard (PDF)](retail_analysis_dashboard.pdf)
 - [SQL queries](retail_analysis.sql)
 
+## 😀 View the Work
   ![Dashboard](dashboard.png)
 
 ## 🛠️Tools
