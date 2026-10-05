@@ -11,9 +11,14 @@ A Power BI dashboard built on 1,650 retail records, using MySQL for data analysi
   ![Dashboard](dashboard.png)
 
 ## Tools
-- **SQL (MySQL):** data profiling, store and category analysis, below-average records
-- **Power BI:** interactive dashboard connected to the MySQL database
-- **DAX:** measures for Total Sales, Avg Sales, Below Avg Records, Sales per Footfall
+<p>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+ data profiling, store and category analysis, below-average records
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+interactive dashboard connected to the MySQL database
+  <img src="https://img.shields.io/badge/DAX-FF6F00?style=flat-square"/>
+measures for Total Sales, Avg Sales, Below Avg Records, Sales per Football
+</p>
 
 ## Dataset
 1,650 records (Jan to Dec 2025) across 4 stores (A, B, C, D) and 3 categories (Grocery, Electronics, Home & Lifestyle). Columns: store, region, category, product, date, quantity sold, sales amount, customer footfall, inventory units, inventory value, inventory turnover.
