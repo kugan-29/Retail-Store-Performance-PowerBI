@@ -4,7 +4,7 @@ A Power BI dashboard built on 1,650 retail records, using MySQL for data analysi
 
 ## View the Dashboard
 
-- [View dashboard (PDF)](https://kugan-29.github.io/Retail-Store-Performance-PowerBI/retail_analysis_dashboard.pdf)
+- [View dashboard (PDF)](retail_analysis_dashboard.pdf)
 - [Dashboard screenshot](dashboard.png)
 - [Download Power BI file (.pbix)](Retail_Store_Performance.pbix?raw=true) (open in Power BI Desktop)
 - [SQL queries](retail_analysis.sql)
