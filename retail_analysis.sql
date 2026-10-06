@@ -52,3 +52,20 @@ SELECT
     ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM retail_performance), 1) AS pct_below_avg
 FROM retail_performance
 WHERE sales_amount < (SELECT AVG(sales_amount) FROM retail_performance); 
+
+USE retail_db;
+
+CREATE TABLE stores (
+    store_id VARCHAR(20) PRIMARY KEY,
+    store_region VARCHAR(20)
+);
+
+INSERT INTO stores
+SELECT DISTINCT store_id, store_region FROM retail_performance;
+
+SELECT s.store_id, s.store_region,
+       ROUND(SUM(r.sales_amount), 2) AS total_sales
+FROM stores s
+JOIN retail_performance r ON s.store_id = r.store_id
+GROUP BY s.store_id, s.store_region
+ORDER BY total_sales DESC;
