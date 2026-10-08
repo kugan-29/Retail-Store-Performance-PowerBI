@@ -1,6 +1,4 @@
-<p>
-  <img src="https://img.shields.io/badge/Retail Store Performance Dashboard-3776AB?style=flat-square&logo=Retail Store Performance Dashboard&logoColor=white"/>
-<p>
+## Retail Store Performance Dashboard
 
 ## 📖 Overview
 A Power BI dashboard built on 1,650 retail records, using MySQL for data analysis and DAX for measures.
