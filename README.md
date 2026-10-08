@@ -1,4 +1,4 @@
-## Retail Store Performance Dashboard
+# Retail Store Performance Dashboard
 
 ## 📖 Overview
 A Power BI dashboard built on 1,650 retail records, using MySQL for data analysis and DAX for measures.
