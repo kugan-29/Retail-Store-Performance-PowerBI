@@ -38,3 +38,9 @@ A Power BI dashboard built on 1,650 retail records, using MySQL for data analysi
 - `retail_analysis.sql`: SQL queries
 - `Retail_Store_Performance_1650.csv`: dataset
 - `dashboard.png`: dashboard screenshot
+
+  ## Author
+
+**Kugan J**
+Data Analyst | SQL · Power BI · Excel · Python
+[LinkedIn](https://linkedin.com/in/kugan-j) · [Portfolio](https://kugan-29.github.io/portfolio)
